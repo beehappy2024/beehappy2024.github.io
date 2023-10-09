@@ -1,15 +1,175 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BeeHappy Technology</title>
     <link rel="shortcut icon" type="image/ico" href="favicon.png" />
-    <link rel="stylesheet" href="/https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../src/assets/css/theme.css">
-    <link rel="stylesheet" href="../src/assets/css/theme.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.8em;
+            margin: 0px;
+            color: #666666;
+        }
+
+        .top-bar-area {
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-bottom: 1px solid #ededed;
+            background-color: #ffffff;
+        }
+
+        .social-link {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        .social-link a {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 100px;
+            background-color: transparent;
+            -webkit-box-shadow: 0 0 0 0 #ffffff;
+            box-shadow: 0 0 0 0 #ffffff;
+            display: inline-block;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .social-link a:hover {
+            -webkit-box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.05);
+        }
+
+        .social-link a.facebook {
+            color: #3b5999;
+        }
+
+        .social-link a.facebook:hover {
+            color: #ffffff;
+            background-color: #3b5999;
+        }
+
+        .social-link a.twitter {
+            color: #55acee;
+        }
+
+        .social-link a.twitter:hover {
+            color: #ffffff;
+            background-color: #55acee;
+        }
+
+        .social-link a.wechat {
+            color: #20ac2e;
+        }
+
+        .social-link a.wechat:hover {
+            color: #ffffff;
+            background-color: #20ac2e;
+        }
+
+        .social-link a.linkedin {
+            color: #0077B5;
+        }
+
+        .social-link a.linkedin:hover {
+            color: #ffffff;
+            background-color: #0077B5;
+        }
+
+        .social-link a.behance {
+            color: #053eff;
+        }
+
+        .social-link a.behance:hover {
+            color: #ffffff;
+            background-color: #053eff;
+        }
+
+        .social-link a.dribbble {
+            color: #ea4c89;
+        }
+
+        .social-link a.dribbble:hover {
+            color: #ffffff;
+            background-color: #ea4c89;
+        }
+
+        .top-info {
+            display: inline-block;
+            color: #333333;
+            font-size: 13px;
+            border-left: 1px solid #ededed;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .top-info:hover {
+            color: #ff7815;
+        }
+
+        .top-info:first-child {
+            border-left: none;
+            padding-left: 0px;
+        }
+
+        .top-info:last-child {
+            padding-right: 0px;
+        }
+
+        .top-info .icon {
+            margin-right: 5px;
+        }
+
+        .header-area {
+            text-align: center;
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+
+        .header-text {
+            margin-bottom: 80px;
+        }
+
+        .header-text .title {
+            font-size: 60px;
+            line-height: 80px;
+            color: #272727;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .header-text .desc {
+            width: 800px;
+            max-width: 100%;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        @media only screen and (max-width: 992px) {
+            .top-bar-area .social-link {
+                text-align: center;
+                margin-bottom: 15px;
+            }
+
+            .top-bar-area .text-right {
+                text-align: center !important;
+            }
+
+            .header-text .title {
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".mainmenu-area" data-offset="50">
@@ -17,12 +177,17 @@
         <div class="top-bar-area" id="home-section">
             <div class="container">
                 <div class="row d-flex align-items-center">
-                    <div class="col-md-4">                        
+                    <div class="col-md-4">
                         <div class="social-link">
-                            <a class="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100088338684551"><i class="fab fa-facebook-f"></i></a>
+                            <a class="facebook" target="_blank"
+                                href="https://www.facebook.com/profile.php?id=100088338684551"><i
+                                    class="fab fa-facebook-f"></i></a>
                             <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/jennychanlfpbattery"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="behance" target="_blank" href="https://www.instagram.com/beehappyjenny"><i class="fab fa-instagram"></i></a>
+                            <a class="linkedin" target="_blank"
+                                href="https://www.linkedin.com/in/jennychanlfpbattery"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a class="behance" target="_blank" href="https://www.instagram.com/beehappyjenny"><i
+                                    class="fab fa-instagram"></i></a>
                             <a class="dribbble" href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
@@ -49,18 +214,18 @@
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1">
                             <div class="header-text">
-                                <h2 class="title wow fadeInUp" data-wow-delay="0.2s" >Can't find anything</h2>
-                                <div class="desc wow fadeInUp" data-wow-delay="0.4s" >
+                                <h2 class="title wow fadeInUp" data-wow-delay="0.2s">Can't find anything</h2>
+                                <div class="desc wow fadeInUp" data-wow-delay="0.4s">
                                     <p>Wow 404 ~</p>
                                 </div>
-                            </div>                        
+                            </div>
                         </div>
                     </div>
                 </div>
             </header>
         </section>
 
-      
+
         <footer>
             <div class="footer-bottom">
                 <div class="container">
